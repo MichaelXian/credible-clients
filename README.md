@@ -38,8 +38,7 @@ _Good luck, and have fun with this_! :rocket:
 
 ## Write-up
 
-Give a brief summary of the approach you took, and why! Include your model's
-accuracy/precision/recall scores as well!
+I used the flowchart in https://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/. I went to the Supervised Learning: Classification section immediately, then went for accuracy, and chose one out of the four. I'm thinking of going with neural networks because I have worked with those before. I haven't started working yet because I just got my computer fixed, and I'm currenly sick, hopefully I'll get better in time to finish this.
 
 
 ## Data Format
