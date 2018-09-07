@@ -38,7 +38,7 @@ _Good luck, and have fun with this_! :rocket:
 
 ## Write-up
 
-I used the flowchart in https://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/. I went to the Supervised Learning: Classification section immediately, then went for accuracy, and chose one out of the four. I went with neural networks because I have worked with those before.
+I used the flowchart in https://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/. I went to the Supervised Learning: Classification section immediately, then went for accuracy, and chose one out of the four. I went with neural networks because I have worked with those before. I then played around with the number of neurons in each hidden layer and the number of hidden layers till it felt more like I was checking random results from random numbers of layers/neurons rather than the machine actually learning.
 
 
 

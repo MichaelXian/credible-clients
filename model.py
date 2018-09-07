@@ -6,8 +6,8 @@ class CreditModel:
         """
         Instantiates the model object, creating class variables if needed.
         """
-        self.clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(100, 100, 100, 100, 100, 100), random_state=1)
-        # TODO: Initialize your model object.
+        n = 75
+        self.clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(n, n, n), random_state=1)
         pass
 
     def fit(self, X_train, y_train):
@@ -19,7 +19,6 @@ class CreditModel:
         """
 
         self.clf.fit(X_train, y_train)
-        # TODO: Fit your model based on the given X and y.
         pass
 
     def predict(self, X_test):
@@ -36,5 +35,3 @@ class CreditModel:
             totalNumber += x
         print(totalNumber/totalResults * 100, "% positive")
         return resultsList
-        # TODO: Predict on `X_test` based on what you learned in the fit phase.
-        #return np.random.randint(2, size=len(X_test))
