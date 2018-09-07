@@ -6,7 +6,7 @@ class CreditModel:
         """
         Instantiates the model object, creating class variables if needed.
         """
-        self.clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(50, 50, 50), random_state=1)
+        self.clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(100, 100, 100, 100, 100, 100), random_state=1)
         # TODO: Initialize your model object.
         pass
 
